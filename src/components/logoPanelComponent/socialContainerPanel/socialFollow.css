@@ -1,0 +1,33 @@
+.social-container{
+display: flex;
+text-align: left;
+flex-direction: column;
+}
+
+a.social {
+  width: 30px;
+  height: 100%;
+  padding-top: 5px;
+  font-size: 18px;
+  
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.youtube {
+  color: #eb3223;
+}
+
+a.instagram {
+  color: black;
+}
+
+a.linkedin {
+  color: #49a1eb;
+}
