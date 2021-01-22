@@ -10,17 +10,8 @@ render(){
   return (
     <div className="LogoPanel">
 		<div className="container" >
-<<<<<<< HEAD
 		<LogoImgPanel/>
 		<SocialFollow />
-=======
-			<LogoImgPanel/>
-			<BreakpointProvider>
-			<SocialFollow />
-			</BreakpointProvider>
-			
->>>>>>> logoPanelComponent
-			
 	  </div>
     </div>
   );
