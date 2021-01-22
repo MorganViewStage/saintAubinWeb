@@ -11,9 +11,7 @@ render(){
     <div className="LogoPanel">
 		<div className="container" >
 			<LogoImgPanel/>
-			<BreakpointProvider>
 			<SocialFollow />
-			</BreakpointProvider>
 			
 			
 	  </div>
