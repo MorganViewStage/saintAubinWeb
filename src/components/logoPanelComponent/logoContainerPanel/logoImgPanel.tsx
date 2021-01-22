@@ -12,7 +12,7 @@ export default class ImgLogoPanel  extends React.Component  {
 	render(){
     return(
       
-	  <img src={imgLogoPanel} width="10%" alt="http://explorez.saintaubinlasalle.fr/"  onClick={homePage}  />
+	  <img src={imgLogoPanel} alt="http://explorez.saintaubinlasalle.fr/"  onClick={homePage}  />
 
     )
   }

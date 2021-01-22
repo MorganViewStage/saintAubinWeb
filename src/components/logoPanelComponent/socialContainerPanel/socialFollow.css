@@ -1,14 +1,19 @@
-.social-container{
-display: flex;
-text-align: left;
-flex-direction: column;
+@media screen and (min-width: 1024px) {
+  .social-container {
+	display: flex;
+	min-width: 300px;
+	text-align: left;
+	flex-direction: column;
+  }
 }
+
 
 a.social {
   width: 30px;
   height: 100%;
   padding-top: 5px;
   font-size: 18px;
+  color: orange;
   
 }
 
@@ -17,17 +22,17 @@ a.social:hover {
 }
 
 a.facebook {
-  color: #4968ad;
+  color: #FF6F1E;
 }
 
 a.youtube {
-  color: #eb3223;
+  color: #FF6F1E;
 }
 
 a.instagram {
-  color: black;
+  color: #FF6F1E;
 }
 
 a.linkedin {
-  color: #49a1eb;
+  color: #FF6F1E;
 }

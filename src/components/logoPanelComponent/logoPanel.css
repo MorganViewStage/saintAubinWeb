@@ -1,8 +1,19 @@
+
 .container {
+
 
     display:flex;
 }
 
 .left {
     margin-right:auto;
+}
+
+@media screen and (max-width: 65.625em), screen and (max-height: 40.625em){
+.LogoPanel {
+    width: 100%;
+    background-color: transparent;
+	display:flex;
+
+	}
 }
