@@ -3,6 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import LogoPanel from './components/logoPanelComponent/logoPanel';
 
+
+
+
 function App() {
   return (
     <div className="App">
