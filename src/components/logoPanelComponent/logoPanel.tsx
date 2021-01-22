@@ -10,7 +10,7 @@ render(){
     <div className="LogoPanel">
 		<div className="container" >
 		<LogoImgPanel/>
-			<SocialFollow />
+		<SocialFollow />
 			
 	  </div>
     </div>
