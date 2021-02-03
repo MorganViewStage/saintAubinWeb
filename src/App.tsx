@@ -1,17 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import LogoPanel from './components/logoPanelComponent/logoPanel';
+import Site from './components/site'
 
+export default class App extends React.Component {
+   render(){
+      return(
 
-
-
-function App() {
-  return (
-    <div className="App">
-      <LogoPanel />
-    </div>
-  );
+        <div className="App">
+		 <Site />
+		 
+		</div>
+      )
+    }
 }
 
-export default App;
