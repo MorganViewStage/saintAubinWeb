@@ -12,7 +12,6 @@ render(){
 		<div className="container" >
 		<LogoImgPanel/>
 		<SocialFollow />
-
 	  </div>
     </div>
   );
