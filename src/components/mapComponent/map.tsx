@@ -1,15 +1,13 @@
-import React, { Component } from 'react';
-import Drawer from "react-bottom-drawer";
-
+import React, { useState } from 'react';
+import SlidingPanel from 'react-sliding-side-panel';
 
 
 export default function Map() {
-
+const [openPanel, setOpenPanel] = useState(false);
     return(
-	<div >
- 
-    
-	</div>
+	<div>
+        <button onClick={() => setOpenPanel(true)}>Open</button>
+      </div>
 )
 
 }
